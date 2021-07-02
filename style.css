@@ -1,0 +1,55 @@
+body {
+  text-align : center;
+  color : white;
+}
+div {
+  background-color : white;
+  height : 7px;
+  Width : 55px;
+  border-radius : 20px;
+  margin : auto;
+}
+#seci {
+  background-image: linear-gradient(cyan, magenta, yellow);
+}
+#secii {
+  background-image: linear-gradient(yellow, magenta, cyan);}
+img {
+  height : 200px;
+  width : 300px;
+  border-radius : 400px;
+  margin-top : 10px;
+}
+hr {
+  height : 5px;
+  background-color : black;
+}
+.menu {
+    position: fixed;
+    margin-right: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: monospace;
+    list-style: none;
+    z-index: 10;
+}
+.links {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: monospace;
+    font-size: 12px;
+}
+.links:hover {
+    background-color: darkgreen;
+}
+ul {
+    list-style-type: none;
+    margin : 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: lightgreen;
+}
